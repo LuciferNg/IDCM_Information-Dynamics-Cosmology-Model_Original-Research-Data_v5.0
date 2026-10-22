@@ -1,0 +1,59 @@
+{
+  "structural": {
+    "epsilon": 0.15450849718747373,
+    "phi_inv": 0.6180339887498949,
+    "phi": 1.618033988749895,
+    "N_horizon": 41.88854381999831,
+    "kappa": 0.06250000000000003,
+    "budget_closure": 0.6180339887498949,
+    "identity": 1.618033988749895
+  },
+  "bao": {
+    "chi2_idm": 9.220635715773385,
+    "n_bins": 6,
+    "n_params": 2,
+    "n_dof": 10,
+    "reduced_chi2": 0.9220635715773385,
+    "best_fit_Om": 0.3030851031220305,
+    "best_fit_H0": 68.19931597768948,
+    "best_fit_rd": 147.20352327565396,
+    "chi2_lcdm": 10.149003926202315,
+    "lcdm_best_fit_Om": 0.2946487423028411,
+    "lcdm_best_fit_H0": 68.838319327382,
+    "delta_chi2": -0.9283682104289301
+  },
+  "cmb": {
+    "R_idm": 1.7492385869164853,
+    "R_lcdm": 1.7536351680290434,
+    "R_planck": 1.7497,
+    "R_planck_err": 0.0049,
+    "IDM_vs_Planck_sigma": 0.09416593541117801,
+    "IDM_vs_LCDM_delta_R_pct": -0.25071241685347134
+  },
+  "cpl": {
+    "w0": -0.9445624704755026,
+    "wa": -0.125137040198679,
+    "w0_err": 0.0019381771852737164,
+    "wa_err": 0.0036043045745767456,
+    "quadrant_w0_gt_m1": true,
+    "quadrant_wa_lt_0": true,
+    "DESI_dynamical_DE_significance": "3.1-3.9\u03c3",
+    "DESI_quadrant": "w\u2080 > \u22121, w\u2090 < 0"
+  },
+  "summary": {
+    "model": "IDM 5.0 (bump)",
+    "status": "VALIDATED against DESI DR2 BAO + CMB",
+    "version": "bump (sign-flip from IDM 4.0 dip)",
+    "epsilon_status": "DERIVED from sync recursion (NOT free parameter)",
+    "structural_checks": "5/5 PASSED",
+    "bao_fit": "\u03c7\u00b2=9.2 vs \u039bCDM \u03c7\u00b2=10.1 (\u0394=-0.9)",
+    "cmb_consistency": "R shift: 0.1\u03c3 from Planck",
+    "w0_wa_quadrant": "w\u2080=-0.945, w\u2090=-0.125 \u2014 matches DESI quadrant",
+    "next_steps": [
+      "1. Full MCMC with IDM 5.0 likelihood (beyond simple \u03c7\u00b2)",
+      "2. Add lensing + growth data (DESI Y3 FS, DES Y3, KiDS)",
+      "3. Study sign ambiguity origin in sync recursion",
+      "4. Update IDM-4.0 repo with IDM 5.0 results"
+    ]
+  }
+}

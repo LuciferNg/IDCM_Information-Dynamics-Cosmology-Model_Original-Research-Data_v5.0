@@ -1,0 +1,21 @@
+{
+  "model": "IDM 5.0",
+  "version": "bump",
+  "epsilon": 0.15450849718747373,
+  "z_c": 0.6,
+  "H0": 69.8,
+  "Omega_m": 0.286,
+  "structural_checks_passed": 5,
+  "structural_checks_total": 5,
+  "CPL_w0": -0.9250014435848527,
+  "CPL_wa": -0.18575398828627215,
+  "CPL_w0_err": 0.000969384145288422,
+  "CPL_wa_err": 0.0022575348141953247,
+  "N_horizon": 41.88854381999831,
+  "H_increase_pct_at_07": 0.9412311140202245,
+  "kappa": 0.06250000000000003,
+  "DESI_quadrant_match": {
+    "w0_gt_m1": true,
+    "wa_lt_0": true
+  }
+}
